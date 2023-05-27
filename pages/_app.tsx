@@ -22,7 +22,7 @@ import '@ionic/react/css/display.css';
 import '../styles/global.css';
 import '../styles/variables.css';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: { Component: any; pageProps: any }) {
   return (
     <>
       <Head>
